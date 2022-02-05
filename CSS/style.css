@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
 }
-
+html{
+    font-size: 10px;
+}
 .container{
-    max-width: 1200px;
+    max-width: 120rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -15,15 +17,15 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 24px;
     margin: 0;
     padding: 0;
 }
 
 .site-header{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .logo{
@@ -32,16 +34,16 @@ body{
     align-items: center;
 }
 .site-logo{
-    margin-right: 16px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-right: 1.6rem;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
 }
 
 .footer-logo-text{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 32.68px;
+    font-size: 2.4rem;
+    line-height: 3.268rem;
     color: #fff;
     transition: 0.5s;
 }
@@ -73,15 +75,15 @@ body{
 }
 
 .sitenav-item:not(:last-child){
-    margin-right: 32px;
+    margin-right: 3.2rem;
 }
 .sitenav-link{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size:14px;
-    line-height: 21px;
-    letter-spacing: 2px;
+    font-size:1.4rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.2rem;
     color:#222222;
     text-transform: uppercase;
     transition: 0.5s;
@@ -95,20 +97,20 @@ body{
 .main-button{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
-    font-size: 15px;
-    letter-spacing: 2px ;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem ;
     background-color: #DE2E54;
-    border: 2px solid #DE2E54;
-    padding: 12px 24px;
+    border: 0.2rem solid #DE2E54;
+    padding: 12px 2.4rem;
     color: #fff;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 0.4rem;
     text-transform: uppercase;
     transition: 00.5s;
 }
 .main-button:hover{
     background: #FFFFFF;
-    border: 2px solid #DE2E54;
+    border: 0.2rem solid #DE2E54;
     color: #DE2E54;
 }
 .main-button:active{
@@ -124,14 +126,14 @@ body{
 }
 
 .hero-content{
-    margin-top: 120px;
+    margin-top: 12rem;
 }
 
 .hero-heading{
     font-family:'Open Sans Condensed', sans-serif;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 43.2px;
+    font-size: 3.2rem;
+    line-height: 4.32rem ;
     margin-top: 0px;
     margin-bottom: 16px;
 }
